@@ -5,6 +5,7 @@
 This library makes using ncurses(3) easier to use with built in functions.
 
 Here is a program using the engine.
+
 ![UserInterfaceModule screenshot] (screenshot.png)
 
 ## Project Meta
