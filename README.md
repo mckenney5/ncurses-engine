@@ -6,7 +6,7 @@ This library makes using ncurses(3) easier to use with built in functions.
 
 Here is a program using the engine.
 
-![UserInterfaceModule screenshot] (screenshot.png)
+![UserInterfaceModule screenshot](https://github.com/mckenney5/ncurses-engine/raw/master/screenshot.png)
 
 ## Project Meta
 This software is in a **working alpha** state.
