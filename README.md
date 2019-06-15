@@ -14,8 +14,8 @@ The software may not work and may have drastic changes in the future.
 
 ## How to Include
 
-To add 'engine.h', you need the ncurses(3) library (or libncurses5-dev on some distros). 
-In your program, include the engine.h file via `#include "engine.h"`.
+To add 'nengine.h', you need the ncurses(3) library (or libncurses5-dev on some distros). 
+In your program, include the engine.h file via `#include "nengine.h"`.
 Note: remember when running `gcc(1)`, you need to specify 
 the library with the `-l` flag (ex `-lncurses`).
 
@@ -23,15 +23,17 @@ An example would be:  `gcc -lncurses your-program.c`
 
 ## Files in the Repository
 
-LICENSE -	The license of the software. Tells you what you can and cant do with it. MIT
+LICENSE -					The license of the software. Tells you what you can and cant do with it. MIT
 
-TODO -	Goals of this project
+ROADMAP -					Project goals that lead to different versions
 
-/doc/EngineRef.A0.0.01.pdf -	A reference for using the engine.h file. Read only PDF
+TODO -						Goals of this project
 
-/doc/EngineRef.odt -	A reference for using the engine.h file. Editable ODT
+/doc/EngineRef.A0.0.01.pdf -A reference for using the engine.h file. Read only PDF
 
-/example/example1.c -	A simple example that shows off some features of the engine
+/doc/EngineRef.odt -		A reference for using the engine.h file. Editable ODT
 
-/src/engine.h - Handles creating menus, leans heavily on ncurses(3)
+/example/example1.c -		A simple example that shows off some features of the engine
+
+/src/nengine.h -				Handles creating menus, leans heavily on ncurses(3)
 
