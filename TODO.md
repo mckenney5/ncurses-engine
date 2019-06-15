@@ -1,9 +1,10 @@
 # TODO
  ======
 
-In order of importance:
+## In order of importance:
 
-[ ]  Finish a TODO list
-[ ]  Upload to git
-[ ]  Add a road-map
+- [ ]  Finish items on ROADMAP
+- [X]  Finish a TODO list
+- [X]  Upload to git
+- [X]  Add a road-map
 
