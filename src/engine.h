@@ -71,8 +71,8 @@ void SetWindowColor(const unsigned short, const unsigned short);
 /* Sets the default title color */
 void SetTitleColor(const unsigned short, const unsigned short);
 
-/* Creates a yes/no dialog box */
-//void Dialog(char*, char*);
+/* Creates a yes/no or OK dialog box */
+//short GenDialog(char*, char*, short);
 
 
 /* -- */
@@ -324,7 +324,21 @@ void SetTitleColor(const unsigned short FColor, const unsigned short BColor){
 }
 
 /*
-void Dialog(char* Title, char* Prompt){
+short GenDialog(char* Title, char* Prompt, short Type){
+	if(Initialized == 0) Warn("In GenDialog, ncurses has not been initialized. Call Init() before use");
+	//Create a box with a width of Prompt +2 on each side
+	//Create a box with a height of 5
+	//Display title
+	//Display text
+	//Check type, 0 for OK only, 1 for Yes/No, else throw error
+	if(Type > 1 || Type < 0){
+		Error(In GenDialog, Invalid type. Options are: 0 for OK, 1 for Yes/No");
+		return -1;
+	} else if(Type == 0) char Text[] = "[OK]";
+	else if(Type == 1) char Text[] = "[Yes]   [No]";
+	//Display [Yes]  [No] on bottom
+	//Wait for a 'y' or a 'n', ignore everything else
+	//Return 1 for yes, 0 for no or OK
 	return;
 }*/
 #endif
