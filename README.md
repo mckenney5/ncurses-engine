@@ -31,5 +31,7 @@ TODO -	Goals of this project
 
 /doc/EngineRef.odt -	A reference for using the engine.h file. Editable ODT
 
+/example/example1.c -	A simple example that shows off some features of the engine
+
 /src/engine.h - Handles creating menus, leans heavily on ncurses(3)
 
